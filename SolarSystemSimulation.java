@@ -10,6 +10,7 @@ interface CelestialBody {
     public String getName();
 }
 
+// hello
 interface Orbitable extends CelestialBody {
     public void setOrbitCenter(CelestialBody center);
 
